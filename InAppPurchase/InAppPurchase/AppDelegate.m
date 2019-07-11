@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "IAPManager.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    [IAPManager getInstance];
+    
+    
     return YES;
 }
 
@@ -45,6 +50,8 @@
 
 - (void)applicationWillTerminate:(UIApplication *)application {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
+    [IAPManager releaseInstance];
+    
 }
 
 

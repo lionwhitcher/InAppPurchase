@@ -13,6 +13,7 @@
 		04773B7822D70F4C00E9162B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04773B7722D70F4C00E9162B /* Assets.xcassets */; };
 		04773B7B22D70F4C00E9162B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04773B7922D70F4C00E9162B /* LaunchScreen.storyboard */; };
 		04773B7E22D70F4C00E9162B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 04773B7D22D70F4C00E9162B /* main.m */; };
+		04773B8622D7150800E9162B /* IAPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 04773B8522D7150700E9162B /* IAPManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		04773B7A22D70F4C00E9162B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04773B7C22D70F4C00E9162B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04773B7D22D70F4C00E9162B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		04773B8422D7150700E9162B /* IAPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IAPManager.h; sourceTree = "<group>"; };
+		04773B8522D7150700E9162B /* IAPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IAPManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		04773B6D22D70F4A00E9162B /* InAppPurchase */ = {
 			isa = PBXGroup;
 			children = (
+				04773B8422D7150700E9162B /* IAPManager.h */,
+				04773B8522D7150700E9162B /* IAPManager.m */,
 				04773B6E22D70F4A00E9162B /* AppDelegate.h */,
 				04773B6F22D70F4A00E9162B /* AppDelegate.m */,
 				04773B7122D70F4A00E9162B /* ViewController.h */,
@@ -141,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04773B8622D7150800E9162B /* IAPManager.m in Sources */,
 				04773B7322D70F4A00E9162B /* ViewController.m in Sources */,
 				04773B7E22D70F4C00E9162B /* main.m in Sources */,
 				04773B7022D70F4A00E9162B /* AppDelegate.m in Sources */,
